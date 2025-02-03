@@ -14,6 +14,7 @@ EOFTests/EIP3540/validInvalid.json
 
 EOFTests/EIP3670/validInvalid.json
 EOFTests/EIP4200/validInvalid.json
+EOFTests/EIP4750/validInvalid.json
 EOFTests/efValidation/callf_into_nonreturning_.json
 EOFTests/efValidation/EOF1_embedded_container_.json
 EOFTests/efValidation/EOF1_eofcreate_valid_.json
@@ -33,6 +34,10 @@ EOFTests/efValidation/EOF1_truncated_section_.json
 EOFTests/efValidation/EOF1_undefined_opcodes_.json
 EOFTests/efValidation/EOF1_truncated_push_.json
 EOFTests/efValidation/deprecated_instructions_.json
+EOFTests/efValidation/jumpf_compatible_outputs_.json
+EOFTests/efValidation/jumpf_equal_outputs_.json
+EOFTests/efValidation/jumpf_incompatible_outputs_.json
+EOFTests/efValidation/non_returning_status_.json
 EOFTests/efValidation/unreachable_code_sections_.json
 
 ([#647](https://github.com/ethereum/execution-spec-tests/pull/647))
@@ -66,3 +71,6 @@ GeneralStateTests/Cancun/stEIP1153-transientStorage/20_oogUndoesTransientStoreIn
 
 ([#975](https://github.com/ethereum/execution-spec-tests/pull/975))
 GeneralStateTests/VMTests/vmTests/push.json
+
+([#1067](https://github.com/ethereum/execution-spec-tests/pull/1067))
+GeneralStateTests/stPreCompiledContracts/blake2B.json
